@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Submarine.cpp
+C:\Users\ILIAS CHRONOPOULOS\Desktop\AIRACE\Project1\Project1\Submarine.cpp(53,48): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ILIAS CHRONOPOULOS\Desktop\AIRACE\Project1\Project1\Submarine.cpp(54,48): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ILIAS CHRONOPOULOS\Desktop\AIRACE\Project1\Project1\Submarine.cpp(77,26): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\ILIAS CHRONOPOULOS\Desktop\AIRACE\Project1\Project1\Submarine.cpp(83,26): warning C4305: '=': truncation from 'double' to 'float'
+  Project1.vcxproj -> C:\Users\ILIAS CHRONOPOULOS\Desktop\AIRACE\Project1\bin\Project1.exe

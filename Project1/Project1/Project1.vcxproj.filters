@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ENEMIES">
+      <UniqueIdentifier>{52095698-0570-419a-8216-8f87c3d2a051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ENEMIES">
+      <UniqueIdentifier>{0ca20ee4-48a0-4b02-8baa-ffe337a97288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Projectiles">
+      <UniqueIdentifier>{73409127-9e5c-48b5-82ec-84bc4f675622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Projectiles">
+      <UniqueIdentifier>{95543ea2-3cee-4933-8f96-e092621f501d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LEVELS">
+      <UniqueIdentifier>{bf54f96e-16c1-43d1-bc16-dd4a2322de7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LEVELS">
+      <UniqueIdentifier>{817076d9-25b9-45c4-917b-26482b76f7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\effects-util">
+      <UniqueIdentifier>{8d78cf89-4f14-4bb0-a253-9e3383f32540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effects">
+      <UniqueIdentifier>{671f79cf-e480-40b5-89fd-90ebdcaa1aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper_structs">
+      <UniqueIdentifier>{c7509750-711a-431f-8d3a-eed71aefe1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player-Allies">
+      <UniqueIdentifier>{1f786828-8dcc-49c9-9b53-1cd8d7891b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player-Allies">
+      <UniqueIdentifier>{441d3794-99e6-49c6-95f9-aa0c93ac5117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper_structs">
+      <UniqueIdentifier>{929ddfeb-79b1-42eb-9054-15a1304606ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomber.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Kamikazi.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>Source Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Missle.cpp">
+      <Filter>Source Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\LEVELS</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenLevel.cpp">
+      <Filter>Source Files\LEVELS</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>Source Files\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Powerup.cpp">
+      <Filter>Source Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Source Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Spawner.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+    <ClCompile Include="allied.cpp">
+      <Filter>Source Files\Player-Allies</Filter>
+    </ClCompile>
+    <ClCompile Include="ally_fighter.cpp">
+      <Filter>Source Files\Player-Allies</Filter>
+    </ClCompile>
+    <ClCompile Include="Carrier.cpp">
+      <Filter>Source Files\Player-Allies</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect_ally_level.cpp">
+      <Filter>Source Files\LEVELS</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player-Allies</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\Helper_structs</Filter>
+    </ClCompile>
+    <ClCompile Include="turning_fighter.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Colition_Manager.cpp">
+      <Filter>Source Files\Helper_structs</Filter>
+    </ClCompile>
+    <ClCompile Include="Submarine.cpp">
+      <Filter>Source Files\ENEMIES</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gamestate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomber.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Kamikazi.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Header Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Missle.h">
+      <Filter>Header Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\LEVELS</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenLevel.h">
+      <Filter>Header Files\LEVELS</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>Header Files\effects-util</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\effects-util</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>Header Files\effects-util</Filter>
+    </ClInclude>
+    <ClInclude Include="Powerup.h">
+      <Filter>Header Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Header Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Spawner.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+    <ClInclude Include="allied.h">
+      <Filter>Header Files\Player-Allies</Filter>
+    </ClInclude>
+    <ClInclude Include="ally_fighter.h">
+      <Filter>Header Files\Player-Allies</Filter>
+    </ClInclude>
+    <ClInclude Include="Carrier.h">
+      <Filter>Header Files\Player-Allies</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect_ally_level.h">
+      <Filter>Header Files\LEVELS</Filter>
+    </ClInclude>
+    <ClInclude Include="turning_fighter.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Colition_Manager.h">
+      <Filter>Header Files\Helper_structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player-Allies</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\Helper_structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Submarine.h">
+      <Filter>Header Files\ENEMIES</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
